@@ -20,8 +20,8 @@ const Pricing = () => {
                                 <div>
                                     <h2 className='text-white text-2xl leading-[100%] font-semibold'>{item.title}</h2>
                                     <div className="flex items-center pt-2.5">
-                                        <p className='text-white font-semibold text-[40px] leading-[120%]'>{item.month}</p>
-                                        <p className='text-white text-[32px] leading-[120%]'>{item.span}</p>
+                                        <p className='text-white font-semibold text-[40px] leading-[120%]'>{item.dollar}</p>
+                                        <p className='text-white text-[32px] leading-[120%]'>{item.month}</p>
                                     </div>
                                     <p className='text-white text-lg font-bold leading-[100%] pt-[35px]'>{item.para}</p>
                                     <ul className='pt-1'>
