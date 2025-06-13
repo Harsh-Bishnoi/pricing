@@ -3,8 +3,10 @@ import { checkIcon } from "./icon";
 export const MONTHLY_DATA = [
     {
         title: "Free",
-        dollar: "$00",
+        monthDollar: "$00",
+        yearDollar:"$00",
         month: "/month",
+        year:"/year",
         para: "Perfect for personal use",
         description: [
             { icon: checkIcon, list: "250mb per upload limit" },
@@ -18,7 +20,9 @@ export const MONTHLY_DATA = [
     {
         title: "Pro",
         popular:"Most Popular",
-        dollar: "$10",
+        monthDollar: "$10",
+        yearDollar: "$100",
+        year: "/year",
         month: "/month",
         para: "For individual creators",
         description: [
@@ -32,7 +36,9 @@ export const MONTHLY_DATA = [
     },
     {
         title: "Creator",
-        dollar: "$25",
+        monthDollar: "$25",
+        yearDollar: "$2500",
+        year: "/year",
         month: "/month",
         para: "For content groups",
         description: [
