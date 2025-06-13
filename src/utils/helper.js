@@ -17,6 +17,7 @@ export const MONTHLY_DATA = [
     },
     {
         title: "Pro",
+        popular:"Most Popular",
         dollar: "$10",
         month: "/month",
         para: "For individual creators",

@@ -18,7 +18,10 @@ const Pricing = () => {
                         {MONTHLY_DATA.map((item, index) => (
                             <div key={index} className={`border md:mb-6 mx-auto max-md:mx-auto border-[#FFFFFF1A] rounded-[20px] backdrop-blur-lg bg-[#040404] w-full p-6 flex flex-col justify-between ${index === 1 ? "z-1 relative border-none bg-[#B81EC90A] shadow-[0px_8px_24px_0px_#42E8E014] border-gradient !max-w-[364px] lg:scale-105 lg:!max-w-[412px]" : "!max-w-[364px] sm:min-h-[575px]"}`}>
                                 <div>
-                                    <h2 className='text-white text-2xl leading-[100%] font-semibold'>{item.title}</h2>
+                                    <div className="flex items-center gap-3">
+                                        <h2 className='text-white text-2xl leading-[100%] font-semibold'>{item.title}</h2>
+                                        <div className={`h-[24px] text-white text-[12px] border-gradient relative bg-[#1D0B21] rounded-[30px] w-[103px] flex items-center justify-center ${index === 1 ? "" : "hidden"}`}>{item.popular}</div>
+                                    </div>
                                     <div className="flex items-center pt-2.5">
                                         <p className='text-white font-semibold text-[40px] leading-[120%]'>{item.dollar}</p>
                                         <p className='text-white text-[32px] leading-[120%]'>{item.month}</p>
