@@ -4,9 +4,9 @@ export const MONTHLY_DATA = [
     {
         title: "Free",
         monthDollar: "$00",
-        yearDollar:"$00",
+        yearDollar: "$00",
         month: "/month",
-        year:"/year",
+        year: "/year",
         para: "Perfect for personal use",
         description: [
             { icon: checkIcon, list: "250mb per upload limit" },
@@ -19,9 +19,9 @@ export const MONTHLY_DATA = [
     },
     {
         title: "Pro",
-        popular:"Most Popular",
+        popular: "Most Popular",
         monthDollar: "$10",
-        yearDollar: "$100",
+        yearDollar: "$1000",
         year: "/year",
         month: "/month",
         para: "For individual creators",
